@@ -12,12 +12,14 @@ function infiniteLoop(arr,d,n){
     }
   }
   //when exactly three arrays
- // return [array.splice(0, x), array.splice(0,y), array]; 
+  return [array.splice(0, x), array.splice(0,y), array]; 
   //more than three arrays
+  /*
   var k=0;
   for (var i =0; i<arr.length; i++){
     for (var j =0; j<arr[i].length; j++){
       arr[i][j] = +(array[k]);
       k++;
     }
+  */
 }
